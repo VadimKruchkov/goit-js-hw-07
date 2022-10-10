@@ -8,7 +8,7 @@ const createGalleryItems = (galleryItems) => {
     .map((item) => {
       return `<div class='gallery__item'>
     <a class='gallery__link' href='${item.original}'>
-    <img class="galleri__img"
+    <img class="gallery__image"
     src="${item.preview}"
     data-source="${item.original}"
     alt"${item.description}"></a></div>`;
